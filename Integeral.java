@@ -9,6 +9,22 @@
  ******************************************/
 
 import java.io.*;
+/*
+ * This class extends the funcation class, to get the input and output of a base funcation easily. Makes 
+ * it easier to spread the function values throlughout without having to remake.
+ * 
+ * This is based on the idea of Rieman Sums integeral approimation.
+ * The Right Hand Sums, Left Hand Sum, and Middle Sums are all very closly related
+ * Trapaziod and Middle has very close output/answers
+ * Simpsons method is approximation without the drawing of boxes or traps on funcation
+ * 
+ * 
+ * All methods for integration approximation will generate an output file with points to plot integeral points,
+ * 
+ * Each funcation also returns the approx answer (as n increases, the answer gets closer and closer to the true value)
+ *
+ * Futher info for indivual methods will be found in Docs (not written yeet)
+ */
 
 class Integeral extends Function{
 
